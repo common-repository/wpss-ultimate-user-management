@@ -1,0 +1,21 @@
+{
+  "name": "wpss/wpss-ultimate-user-management",
+  "description": "WPSS Users, roles and capabilities management",
+  "type": "wordpress-plugin",
+  "keywords": ["wordpress", "plugin", "metabox"],
+  "license": "GNU General Public License v3 or later",
+  "autoload": {
+    "psr-4": {
+      "WpssUserManager\\Admin\\": "admin/classes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Angelo Rocha",
+      "email": "contato@angelorocha.com.br"
+    }
+  ],
+  "require": {
+    "php": ">8.0"
+  }
+}
